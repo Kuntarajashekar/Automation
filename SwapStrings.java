@@ -6,7 +6,7 @@ public class SwapStrings {
 	 String str1="java";
 	 
 	 String str2="welcome";
-	 
+	 System.out.println("*****************************");
 	 String str3=str1+str2;
 	 System.out.println(str3);
 	 str2=str3.substring(0,str3.length()-str2.length());
